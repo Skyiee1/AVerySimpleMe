@@ -1,0 +1,72 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Greetings</title>
+  <style>
+    body {
+      background-color: #f4e1d2; /* Light brown background */
+      font-family: 'Arial', sans-serif; /* Choose an aesthetic font */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #f4e1d2;
+      color: #8b4513; /* Brown text color */
+      font-size: 40px;
+      padding: 20px;
+    }
+
+    .message-box {
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid #8b4513; /* Brown outline */
+      font-size: 20px;
+    }
+
+    .photo-frames {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .photo-frame {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #8b4513; /* Brown border for photo frames */
+      margin: 10px;
+      overflow: hidden;
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Hello, Mi Amor.</h1>
+  </div>
+  <div class="message-box">
+    <p>Hi love, Merry Christmas and a Happy New Year. We've been through a lot and I know there will be more, I don't know where we will be going but I need you to hold on tight, let us be strong in this. I have nothing more to say, I love you, love, let us face a new and fresh year together. Once again, I love you, mi amor.</p>
+  </div>
+  <div class="photo-frames">
+    <!-- 8 photo frames -->
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+    <div class="photo-frame"></div>
+  </div>
+  <audio controls>
+    <source src="https://open.spotify.com/track/5UhpceEr5XmbVwyoIUIRnh?si=ZrgXwbJURnmNmBllc6fO6Q&utm_source=copy-link" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
